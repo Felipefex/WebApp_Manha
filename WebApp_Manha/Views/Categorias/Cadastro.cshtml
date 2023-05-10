@@ -1,0 +1,19 @@
+﻿@model WebApp_Manha.Entidades.Categoria
+
+<form action="/Categorias/SalvarDados" method="post">
+    <input name="Nome" type="text" />
+    
+
+    <select name="Ativo" class="form-control">
+
+
+        <option value="true">Ativada</option>
+        <option value="false">Desativada</option>
+    </select>
+  
+
+    <button type="submit">
+        salvar
+    </button>
+
+</form>
